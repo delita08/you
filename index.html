@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Surprise 💡⚽</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =================================
+         PAGE 1
+         WELCOME
+    ================================== -->
+
+    <section
+        class="page active"
+        id="welcome-page">
+
+        <div class="welcome-card">
+
+            <div class="stadium-light">
+                💡
+            </div>
+
+            <div class="football">
+                ⚽
+            </div>
+
+            <p class="eyebrow">
+                A LITTLE SURPRISE
+            </p>
+
+            <h1>
+                HEY ALPA!
+            </h1>
+
+            <p class="description">
+                Someone made something special for you.
+            </p>
+
+            <p class="question-text">
+                Wanna see it?
+            </p>
+
+            <div class="choice-buttons">
+
+                <button
+                    class="round-btn"
+                    id="start-no">
+                    ✕
+                </button>
+
+                <button
+                    class="round-btn"
+                    id="start-yes">
+                    ✓
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         PAGE 2
+         PASSWORD
+    ================================== -->
+
+    <section
+        class="page"
+        id="password-page">
+
+        <div class="password-card">
+
+            <div class="bulb">
+                💡
+            </div>
+
+            <p class="eyebrow">
+                LOCKED
+            </p>
+
+            <h2>
+                Before we turn on the lights...
+            </h2>
+
+            <p>
+                Enter the secret passcode.
+            </p>
+
+            <div class="password-box">
+
+                <input
+                    type="password"
+                    id="password-input"
+                    placeholder="secret password..."
+                    autocomplete="off">
+
+                <button
+                    id="unlock-btn">
+                    UNLOCK
+                </button>
+
+            </div>
+
+            <p
+                class="password-hint"
+                id="password-hint">
+            </p>
+
+        </div>
+
+
+        <!-- WRONG PASSWORD -->
+
+        <div
+            class="wrong-overlay"
+            id="wrong-overlay">
+
+            <div class="wrong-popup">
+
+                <div class="wrong-bulb">
+                    💡
+                </div>
+
+                <h3>
+                    Wrong Passcode
+                </h3>
+
+                <div class="angry-face">
+                    😾
+                </div>
+
+                <p>
+                    The lights are still off...
+                </p>
+
+                <button
+                    id="try-again-btn">
+                    TRY AGAIN
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         LIGHT / FLOWER EXPLOSION
+    ================================== -->
+
+    <div
+        id="light-transition"
+        aria-hidden="true">
+    </div>
+
+
+    <!-- =================================
+         PAGE 3
+         LIGHTS ON + FLOWERS
+    ================================== -->
+
+    <section
+        class="page"
+        id="flowers-page">
+
+        <div class="stadium-background">
+
+            <div class="stadium-lamp lamp-left">
+                💡
+            </div>
+
+            <div class="stadium-lamp lamp-right">
+                💡
+            </div>
+
+
+            <div class="flower-content">
+
+                <p class="eyebrow">
+                    LIGHTS ON ✦
+                </p>
+
+                <h1>
+                    A little something
+                    for you.
+                </h1>
+
+                <p class="instruction">
+                    There's something waiting for you...
+                </p>
+
+
+                <!-- BOUQUET -->
+
+                <div class="bouquet">
+
+                    <div class="flower flower-one">
+                        🌹
+                    </div>
+
+                    <div class="flower flower-two">
+                        🌹
+                    </div>
+
+                    <div class="flower flower-three">
+                        🌹
+                    </div>
+
+
+                    <div class="stem stem-one"></div>
+                    <div class="stem stem-two"></div>
+                    <div class="stem stem-three"></div>
+
+
+                    <div class="vase">
+                        <span>
+                            ALPA ♡
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- LETTER -->
+
+                <button
+                    class="letter"
+                    id="letter-btn">
+
+                    💌
+
+                </button>
+
+                <p class="click-text">
+                    click the letter
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         PAGE 4
+         LETTER
+    ================================== -->
+
+    <section
+        class="page"
+        id="letter-page">
+
+        <div class="letter-card">
+
+            <p class="eyebrow">
+                ONE LITTLE NOTE
+            </p>
+
+
+            <div class="paper">
+
+                <div class="paper-light">
+                    💡
+                </div>
+
+                <p class="letter-greeting">
+                    dear Alpa,
+                </p>
+
+                <p>
+                    I don't really know how
+                    to say this...
+                </p>
+
+                <p>
+                    So instead,
+                    I made this little website
+                    for you.
+                </p>
+
+                <p>
+                    Maybe it's a little silly,
+                    but there's something
+                    I've been wanting to ask.
+                </p>
+
+                <p class="letter-ending">
+                    just one more thing...
+                </p>
+
+            </div>
+
+
+            <button
+                class="main-btn"
+                id="question-btn">
+
+                OPEN THE LAST PAGE ♡
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         PAGE 5
+         THE QUESTION
+    ================================== -->
+
+    <section
+        class="page"
+        id="question-page">
+
+        <div class="question-card">
+
+            <div class="question-light">
+                💡
+            </div>
+
+            <p class="eyebrow">
+                THE QUESTION
+            </p>
+
+            <div class="tiny-line"></div>
+
+            <p class="question-intro">
+                I've been wanting to ask you something...
+            </p>
+
+            <h1>
+                Will you be<br>
+                my boyfriend?
+            </h1>
+
+            <p class="football-small">
+                ⚽
+            </p>
+
+
+            <div class="final-buttons">
+
+                <button
+                    class="yes-final"
+                    id="yes-final">
+
+                    YES, I WILL! 💗
+
+                </button>
+
+                <button
+                    class="no-final"
+                    id="no-final">
+
+                    NO
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         PAGE 6
+         YES ENDING
+    ================================== -->
+
+    <section
+        class="page"
+        id="ending-page">
+
+        <div class="ending-content">
+
+            <div class="heart-burst">
+                ♥
+            </div>
+
+            <div class="ending-light">
+                💡
+            </div>
+
+            <p class="eyebrow">
+                LIGHTS ON
+            </p>
+
+            <h1>
+                YAYYY! ♡
+            </h1>
+
+            <p>
+                Looks like someone
+                finally turned the lights on.
+            </p>
+
+            <div class="ending-hearts">
+                ♡ ♥ 💗 ♥ ♡
+            </div>
+
+            <div class="ending-ball">
+                ⚽
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         HEART CONTAINER
+    ================================== -->
+
+    <div
+        id="heart-container"
+        aria-hidden="true">
+    </div>
+
+
+    <!-- =================================
+         JAVASCRIPT
+    ================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
